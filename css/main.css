@@ -1,0 +1,503 @@
+html, body{
+    overflow: hidden auto;
+}
+#container{
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.a-c{
+    margin: 0 auto;
+    width: 85%;
+}
+
+ul{
+    list-style: none;
+}
+
+/* HEADER */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    position: fixed;
+    left: 0;
+    right: 0;
+    min-width: 48.25rem;
+}
+
+.header nav a{
+    display: block;
+    padding: 2rem 1.5rem;
+    color: #484c55;
+    text-decoration: none;
+    border-bottom: 3px solid #FFF;
+    font-size: 1.07rem;
+    font-weight: 500;
+}
+
+.header nav ul{
+    list-style: none;
+}
+
+.header nav ul li{
+    float: left;
+}
+
+.header nav a:hover{
+    color: #44c0c2;
+    border-bottom: 3px solid #44c0c2;
+    background-color: #f8f9fb;
+}
+
+/******************************************************************************************************************
+                                                    BACKGROUND
+******************************************************************************************************************/
+
+.bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(../img/background.png) no-repeat center;
+    background-size: cover;
+    height: 35.375rem;
+    color: #FFF;
+}
+
+.bg span{
+    padding: 2.5rem 0;
+}
+
+.bg button{
+    background: none;
+    border: none;
+}
+
+.bg button a{
+    border: 2px solid #FFF;
+    padding: 0.8rem 3.2rem 0.9rem 3.2rem;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+}
+
+.bg button a:hover{
+    background-color: #FFF;
+    color: #44c0c2;
+}
+
+/******************************************************************************************************************
+                                                AREA-CONTEUDO-1
+******************************************************************************************************************/
+
+.a-c-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.a-c-1 article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 17.1875rem;
+    padding: 1.5rem 0;
+}
+
+.a-c-1 button{
+    background: none;
+    border: none;
+}
+
+.a-c-1 h3{
+    color: #4e525d;
+    padding: 1.5rem 0;
+}
+
+.a-c-1 button a{
+    color: #FFF;
+    background-color: #49cbcd;
+    border: 1px solid #49cbcd;
+    padding: 0.3rem 1rem 0.45rem 1rem;
+    text-decoration: none;
+    border-radius: 0.3rem;
+}
+
+.a-c-1 button a:hover{
+    color: #49cbcd;
+    background-color: #FFF;
+    border: 1px solid #49cbcd;
+}
+
+/******************************************************************************************************************
+                                                AREA-CONTEUDO-2
+******************************************************************************************************************/
+.a-c-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 2rem 0 4rem 0;
+}
+
+.a-c-2 article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-c-2 .c-2 article{
+    width: 21.875rem;
+    margin: 0.3rem;
+}
+
+.a-c-2 article h2{
+    color: #4e525d;
+}
+
+.a-c-2 .c-2 article img{
+    width: 100%;
+}
+
+.a-c-2 article button{
+    background: none;
+    border: none;
+    margin-top: 1.5rem;
+}
+
+.a-c-2 article button a{
+    display: block;
+    background-color: #49cbcd;
+    border: 1px solid#49cbcd;
+    padding: 0.7rem 1.5rem;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 2rem;
+}
+
+.a-c-2 article button a:hover{
+    background-color: #FFF;
+    border: 1px solid #49cbcd;
+    color: #49cbcd;
+}
+
+/******************************************************************************************************************
+                                                AREA-CONTEUDO-3
+******************************************************************************************************************/
+
+.a-c-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 0;
+}
+.a-c-3 .c-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.a-c-3 .c-3 article{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    align-items: center;
+    text-align: center;
+    width: 14rem;
+    color: #4e525d;
+    margin: 1.5rem 0;
+    
+}
+
+.a-c-3 article span{
+    font-weight: 500;
+}
+
+.a-c-3 article img{
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+/******************************************************************************************************************
+                                                AREA-CONTEUDO-4
+******************************************************************************************************************/
+
+.a-c-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+    padding: 4rem 0;
+}
+
+.a-c-4 article{
+    border: 1px solid #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 300px;
+    margin: 0.5rem;
+    background-color: #FFF;
+}
+
+.a-c-4 article h3{
+    font-size: 1.4rem;
+    color: #FFF;
+    background-color: #485460;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.a-c-4 article ul{
+    list-style: none;
+}
+
+.a-c-4 article ul li{
+    border-top: 1px solid #F2F2F2;
+    padding: 0.3rem 0;
+    color: #8c9299;
+}
+
+.a-c-4 article ul li a{
+    text-decoration: none;
+}
+
+.a-c-4 article ul li button{
+    background: none;
+    border: none;
+    margin: 1.3rem 0;
+}
+
+.a-c-4 article ul li button a{
+    padding: 0.4rem 2.5rem 0.6rem 2.5rem;
+    color: #FFF;
+    background-color: #788492;
+    font-weight: 500;
+}
+
+.a-c-4 article ul li button a:hover{
+    background-color: #FFF;
+    border: 1px solid #788492;
+    color: #788492;
+}
+
+.pro{
+    background-color: #49cbcd !important;
+}
+
+.pro-hover a:hover{
+    background-color: #FFF !important;
+    border: 1px solid #49cbcd !important;
+    color: #49cbcd !important;
+}
+
+/* AREA-CONTEUDO-5 */
+
+.a-c-5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a-c-5 article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 0;
+    width: 35rem;
+
+}
+
+.a-c-5 article h2{
+    color: #4e525d;
+}
+
+.a-c-5 article span{
+    color: #9a8faf;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/******************************************************************************************************************
+                                                RODAPE
+******************************************************************************************************************/
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    background: url(../img/bg-contact.png) no-repeat center;
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+}
+
+.rodape h2{
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.rodape p{
+    color: #a5a5a5;
+}
+
+.rodape ul li{
+    float: left;
+}
+
+.rodape a{
+    display: block;
+    margin: 0.7rem;
+}
+
+.rodape > article.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rodape article article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.rodape form input:not(.send){
+    padding: 0.5rem 2rem;
+    margin: 0.8rem 0;
+}
+
+.rodape form input.send{
+    padding: 0.5rem 2.5rem;
+    margin: 0.8rem 0;
+}
+
+.rodape form input.send{
+    background-color: #49cbcd;
+    color: #FFF;
+    border: 1px solid#49cbcd;
+    border-radius: 2rem;
+    font-weight: 500;
+}
+
+.rodape form input.send:hover{
+    background-color: #FFF;
+    color:  #49cbcd;
+    border: 1px solid  #49cbcd;
+}
+
+.rodape form textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    padding: 0.8rem;
+}
+
+.rodape .copy{
+    font-weight: 500;
+    padding: 3rem;
+}
+
+/******************************************************************************************************************
+                                                MEDIA-QUERIES
+******************************************************************************************************************/
+
+@media (min-width: 320px){
+    .header{
+        position: relative;
+    }
+
+    .bg h1{
+        font-size: 2.3em;
+    }
+
+    .bg button a{
+        padding: 0.7rem 2rem 0.8rem 2rem;
+    }
+
+    .a-c-3 .c-3 article{
+        width: 16rem;
+    }
+
+    .a-c-4 article{
+        width: 250px;
+    }
+
+}
+
+@media (min-width: 320px ) and (max-width: 1024px){
+    .rodape .c-rodape{
+        order: 1;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 520px){
+    .rodape form input:not(.send){
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    .header{
+        position: fixed;
+        right: 0;
+        left: 0;
+    }
+
+    .bg h1{
+        font-size: 3em;
+    }
+
+    .a-c-2 .c-2 article{
+        width: 19.6875rem;
+    }
+
+    .a-c-4 article{
+        width: 230px;
+        margin: 0.5rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .a-c-1 article{
+        width: 12.5rem;
+        margin: 0 0.5rem;
+    }
+
+    .a-c-2 .c-2 article{
+        width: 17.5rem;
+    }
+
+    .a-c-3 .c-3 article{
+        width: 12.5rem;
+    }
+
+    .a-c-4 article{
+        width: 300px;
+    }
+}
+
+@media (min-width: 1200px){
+    .a-c-3 .c-3 article{
+        width: 15rem;
+    }
+}
