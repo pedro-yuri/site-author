@@ -444,6 +444,13 @@ ul{
 
 }
 
+@media (min-width: 375px){
+    .a-c-4 article{
+        width: 300px;
+    }
+}
+
+
 @media (min-width: 320px ) and (max-width: 1024px){
     .rodape .c-rodape{
         order: 1;
@@ -472,7 +479,7 @@ ul{
     }
 
     .a-c-4 article{
-        width: 230px;
+        width: 300px;
         margin: 0.5rem;
     }
 }
